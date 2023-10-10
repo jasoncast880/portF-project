@@ -1,0 +1,84 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Define a container with a fixed width */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Create a simple header with large text and a border */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Style links with an underline and a hover effect */
+a {
+  text-decoration: underline;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* Create a card-like container for content */
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Style headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style buttons with a simple border */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Create a simple footer with a border at the top */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  border-top: 1px solid #555;
+}
